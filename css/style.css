@@ -238,6 +238,18 @@ img {
   gap: 12px;
 }
 
+.hero .btn-outline {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.hero .btn-outline:hover {
+  background-color: var(--white);
+  color: var(--navy);
+  border-color: var(--white);
+}
+
 .cards-grid {
   display: grid;
   gap: 22px;
